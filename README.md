@@ -1,6 +1,6 @@
 ## Hawatel Production React Starter
 
-> <b style='color: orange; font-size: 14pt;'>:star2: Hawatel Production React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. :+1: This is a good place to start your project or any project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). :house: For a development process the <b style='color: orange;'>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and a wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms`, `tests`.
+> <b style='color: orange; font-size: 14pt;'>:star2: Hawatel Production React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. This is a good place to start your project or any project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). :house: For a development process the <b style='color: orange;'>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and a wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms`, `tests`.
 > <br/>:eyes: If you are not familiar with react and redux you can analyse a demo application which is included in the <b style='color: orange;'>Starter Kit</b>.
 
 <p align="center">
@@ -10,15 +10,11 @@
 <p align="center">
 <b><a href="#features">Features</a></b>
 |
-<b><a href="#installation">Installation</a></b>
-|
-<b><a href="#updating">Updating</a></b>
-|
-<b><a href="#setup">Setup</a></b>
+<b><a href="#usage">Usage</a></b>
 |
 <b><a href="#structure">Structure</a></b>
 |
-<b><a href="#credits">Credits</a></b>
+<b><a href="#deployment">Deployment</a></b>
 |
 <b><a href="#license">License</a></b>
 </p>
@@ -43,14 +39,14 @@
 
 ## Usage
 
- |Command|Description|
- |---|---|
- |`npm run start`|Start server on `localhost:3000`|
- |`npm run clean`|Clean dist directory.|
- |`npm run build`|Compiles the application to disk (`~/dist` by default).|
- |`npm run build:production`|Same as `npm run clean & npm run build`
- |`npm run lint`|Lint all .js files.|
- |`npm run test`|Runs unit tests with Karma|
+|Command|Description|
+|---|---|
+|`npm run start`|Start server on `localhost:3000`|
+|`npm run clean`|Clean dist directory.|
+|`npm run build`|Compiles the application to disk (`~/dist` by default).|
+|`npm run build:production`|Same as `npm run clean & npm run build`
+|`npm run lint`|Lint all .js files.|
+|`npm run test`|Runs unit tests with Karma|
 
 ## Structure
 
