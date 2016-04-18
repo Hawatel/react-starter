@@ -1,7 +1,7 @@
 ## Hawatel Production React Starter
 
-> <b style='color: orange; font-size: 14pt;'>:star2: Hawatel Production React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. This is a good place to start your project or any project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). :house: For a development process the <b style='color: orange;'>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and a wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms`, `tests`.
-> <br/>:eyes: If you are not familiar with react and redux you can analyse a demo application which is included in the <b style='color: orange;'>Starter Kit</b>.
+> <b>:star2: Hawatel Production React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. This is a good place to start your project, or any other project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). For a development process the <b>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms` and `tests`.
+> <br/>:eyes: If you are not familiar with React and Redux you can analyse a demo application which is included in the <b style='color: orange;'>Starter Kit</b>.
 
 <p align="center">
 <img src="https://s3-eu-west-1.amazonaws.com/hawatel-github/hawatel-production-react-starter/banner.png">
@@ -84,6 +84,9 @@ clean the `dist` folder and rebuilds the app
 ```
 $ npm test
 ```
+
+## Origin
+This project was built based on the [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate) created by [anorudes](https://github.com/anorudes).
 
 ## License
 
