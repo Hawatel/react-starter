@@ -15,7 +15,8 @@ describe('Items reducer:', () => {
   it('should handle ADD', () => {
     const stateAfterAdd = {
       items: [{
-        text: 'test'
+        text: 'test',
+        done: false
       }],
     };
     const fields =  { name: { value: 'test'}};
@@ -39,5 +40,29 @@ describe('Items reducer:', () => {
         index: 0
       })
     ).toEqual(initialState);
+  });
+
+  it('should handle DONE', () => {
+    const stateWithItem = {
+      items: [{
+        text: 'test',
+        done: false
+      }],
+    };
+
+    const stateItemDone = {
+      items: [{
+        text: 'test',
+        done: true
+      }],
+    };
+
+    expect(
+        items(stateWithItem, {
+          type: 'DONE_ITEM',
+          index: 0,
+          done: true
+        })
+    ).toEqual(stateItemDone);
   });
 });
