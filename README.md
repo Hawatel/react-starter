@@ -16,6 +16,8 @@
 |
 <b><a href="#deployment">Deployment</a></b>
 |
+<b><a href="#contributing">Contributing</a></b>
+|
 <b><a href="#license">License</a></b>
 </p>
 
@@ -87,6 +89,10 @@ $ npm test
 
 ## Origin
 This project was built based on the [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate) created by [anorudes](https://github.com/anorudes).
+
+## Contributing
+
+See [CONTRIBUTING](CONTRIBUTING.md)
 
 ## License
 
