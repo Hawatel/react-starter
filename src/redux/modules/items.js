@@ -37,6 +37,7 @@ export function items(state = initialState, action) {
       items: [
         ...state.items, {
           text: action.fields.name.value,
+          done: false
         },
       ],
     };
@@ -49,6 +50,18 @@ export function items(state = initialState, action) {
         ...state.items.slice(+action.index + 1),
       ],
     };
+
+  case 'DONE_ITEM':
+      return Object.assign({}, state, {
+        items: state.items.map((item, index) => {
+          if(index == action.index) {
+            return Object.assign({}, item, {
+              done: action.done
+            })
+          }
+          return item;
+        })
+      });
 
   default:
     return state;
@@ -67,6 +80,14 @@ export function delItem(index) {
     type: 'DELETE_ITEM',
     index,
   };
+}
+
+export function doneItem(index, done) {
+  return {
+    type: 'DONE_ITEM',
+    index,
+    done
+  }
 }
 
 export function exampleAction(){

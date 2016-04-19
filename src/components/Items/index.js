@@ -9,11 +9,11 @@ export class Items extends Component {
   static propTypes = {
     items: React.PropTypes.array,
     delItem: React.PropTypes.func,
+    doneItem: React.PropTypes.func,
   };
 
   constructor(props) {
     super(props);
-    console.log(this.props);
   }
 
   onDelete = (event) => {
@@ -21,6 +21,11 @@ export class Items extends Component {
     const index = event.currentTarget.dataset.index;
     this.props.delItem(index);
   };
+
+  onChange = (event) => {
+    const index = event.currentTarget.dataset.index;
+    this.props.doneItem(index, event.target.checked);
+  }
 
   render() {
     const { items } = this.props;
@@ -32,7 +37,9 @@ export class Items extends Component {
           items.map((item, index) =>
             <div className="row checkbox" key={index}>
               <input type="checkbox"
-                     defaultChecked={item.done}
+                     data-index={index}
+                     checked={item.done}
+                     onChange={this.onChange}
               />
 
               <button className="btn btn-warning remove"

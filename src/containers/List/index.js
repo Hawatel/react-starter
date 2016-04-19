@@ -10,7 +10,7 @@ import { AddItem } from 'components/AddItem';
 
 
 /* actions */
-import { addItem, delItem } from 'redux/modules/items';
+import { addItem, delItem, doneItem } from 'redux/modules/items';
 
 const metaData = {
   title: 'Redux test',
@@ -27,7 +27,7 @@ const metaData = {
 
 @connect(
     state => state.items,
-    dispatch => bindActionCreators({addItem, delItem}, dispatch)
+    dispatch => bindActionCreators({addItem, delItem, doneItem}, dispatch)
 )
 
 
