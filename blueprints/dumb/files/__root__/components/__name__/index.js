@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 /* component styles */
 import { styles } from './styles.scss';
 
-
 const metaData = {
   title: 'ReactJS & Redux',
   description: 'Start your project with react and redux',
@@ -16,14 +15,14 @@ const metaData = {
 };
 
 
-
 export class <%= pascalEntityName %> extends Component {
+  /*
+   function will be called only once when component is mounted
+   each time when DOM will be rendered
+  componentWillMount(){
 
-  // function will be called only once when component is mounted
-  // each time when DOM will be rendered
-  //componentWillMount(){
-  //
-  //}
+  }
+  */
 
   constructor(props){
     super(props);
@@ -38,7 +37,7 @@ export class <%= pascalEntityName %> extends Component {
       <section>
         <DocumentMeta {...metaData} />
       </section>
-  );
+    );
   }
 
 }

@@ -50,7 +50,6 @@ export class <%= pascalEntityName %> extends Component {
           <div className="row">
             <div className="col-md-12">
               <div  className={styles}>
-                this is example test
                 <button className="btn" onClick={this.clickButton.bind(this)}> Call API </button>
               </div>
             </div>

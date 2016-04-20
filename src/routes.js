@@ -7,7 +7,7 @@ import { Home } from 'containers/Home';
 import { List } from 'containers/List';
 import { ApiLocation } from 'containers/ApiLocation';
 
-import Form from 'forms/UsernameForm/UsernameForm';
+import Form from 'forms/UsernameForm/';
 
 
 export default (

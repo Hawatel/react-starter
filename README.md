@@ -16,6 +16,8 @@
 |
 <b><a href="#deployment">Deployment</a></b>
 |
+<b><a href="#redux-generation">Redux Generation</a></b>
+|
 <b><a href="#contributing">Contributing</a></b>
 |
 <b><a href="#license">License</a></b>
@@ -71,6 +73,17 @@ The folder structure provided is only meant to serve as a guide, it is by no mea
 ├── webpack                  # Webpack configuration file
 └── tests                    # Unit tests files
 ```
+
+## Redux-Generation
+To automation create new component boilerplate contain [redux-cli](https://github.com/SpencerCDixon/redux-cli). A Greate tool which accelerates build process application based on ready to use templates. 
+
+
+|Command|Description|
+|---|---|
+|`redux-generation dumb`|Generates a redux duck|
+|`redux-generation smart`|Generates a smart (container) component|
+|`redux-generation duck`|Generates a redux duck|
+|`redux-generation form`|Generates a connected redux-form form component|
 
 ## Deployment
 ```
