@@ -13,13 +13,13 @@ import { AddItem } from 'components/AddItem';
 import { addItem, delItem, doneItem } from 'redux/modules/items';
 
 const metaData = {
-  title: 'Redux test',
-  description: 'Start you project easy and fast with modern tools.',
+  title: 'Hawatel Production React Starter',
+  description: 'Start your project with react and redux',
   canonical: 'http://example.com/path/to/page',
   meta: {
     charset: 'utf-8',
     name: {
-      keywords: 'react,meta,document,html,tags',
+      keywords: 'react,redux,meta,document,html,tags',
     },
   },
 };

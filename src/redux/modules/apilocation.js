@@ -23,8 +23,6 @@ export function getGeometryActionAsync(city) {
     const API   = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + city;
     var respons = '';
 
-    console.log(API);
-
     axios.get(API)
         .then(function (response) {
             respons = response.data.results;
