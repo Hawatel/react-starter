@@ -2,12 +2,11 @@ module.exports = (config) => {
   config.set({
     basePath: '.',
     singleRun: true,
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon'],
     browsers: ['PhantomJS'],
     files: [
       'node_modules/babel-polyfill/dist/polyfill.js',
       'node_modules/phantomjs-polyfill/bind-polyfill.js',
-      'node_modules/chai/chai.js',
       'tests/**/*.spec.js',
     ],
 
@@ -18,6 +17,7 @@ module.exports = (config) => {
     },
 
     preprocessors: {
+      'src/**/*.js': ['webpack'],
       'tests/**/*.spec.js': ['webpack'],
     },
 
@@ -50,6 +50,7 @@ module.exports = (config) => {
       'karma-webpack',
       'istanbul-instrumenter-loader',
       'karma-mocha',
+      'karma-sinon',
       'karma-chai',
       'karma-coverage',
       'karma-react-preprocessor',
