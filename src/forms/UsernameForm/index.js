@@ -53,7 +53,7 @@ class Username extends Component {
 
               <div className={`form-group ${content.touched && content.invalid ? 'has-danger' : ''}`}>
                 <label>Content</label>
-                <textarea className="form-control" rows="18" {...content}> </textarea>
+                <textarea className="form-control" rows="18" value="" {...content} />
                 <div className="text-help">
                   {content.touched ? content.error : ''}
                 </div>
