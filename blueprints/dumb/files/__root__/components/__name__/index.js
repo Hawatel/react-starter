@@ -1,5 +1,21 @@
 import React, { Component } from 'react'
 
+/* component styles */
+import { styles } from './styles.scss';
+
+
+const metaData = {
+  title: 'ReactJS & Redux',
+  description: 'Start your project with react and redux',
+  meta: {
+    charset: 'utf-8',
+    name: {
+      keywords: 'react,meta,document,html,tags',
+    },
+  },
+};
+
+
 
 export class <%= pascalEntityName %> extends Component {
 
@@ -19,10 +35,10 @@ export class <%= pascalEntityName %> extends Component {
 
   render(){
     return (
-      <div>
-
-      </div>
-    );
+      <section>
+        <DocumentMeta {...metaData} />
+      </section>
+  );
   }
 
 }

@@ -27,6 +27,9 @@ export class Header extends Component {
                 <Link to="/form" activeClassName="active">
                   Form
                 </Link>
+		<Link to="/Rest" activeClassName="active">
+                  Rest
+                </Link>
               </nav>
             </div>
 

@@ -108,6 +108,7 @@
     "webpack-merge": "^0.7.3"
   },
   "dependencies": {
+    "axios": "^0.9.1",
     "font-awesome": "^4.6.1",
     "jquery": "^2.2.0",
     "react": "^15.0.1",
