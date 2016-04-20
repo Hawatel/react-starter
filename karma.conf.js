@@ -17,7 +17,7 @@ module.exports = (config) => {
     },
 
     preprocessors: {
-      'src/**/*.js': ['webpack'],
+      'src/**/*.js': ['webpack', 'coverage'],
       'tests/**/*.spec.js': ['webpack'],
     },
 
@@ -53,7 +53,6 @@ module.exports = (config) => {
       'karma-sinon',
       'karma-chai',
       'karma-coverage',
-      'karma-react-preprocessor',
       'karma-phantomjs-launcher',
       'karma-spec-reporter',
     ],
