@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import DocumentMeta from 'react-document-meta';
 
 /* component styles */
 import { styles } from './styles.scss';
