@@ -1,0 +1,42 @@
+:local(.styles) {
+
+  button[type='submit'] {
+    margin-left: 10px;
+  }
+
+  margin-top: 80px;
+
+  .col-no-padding{
+    padding: 0 !important;
+  }
+
+  .has-danger {
+    border: 1px solid red;
+  }
+
+  /* CSS for Credit Card Payment form */
+  .credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+  }
+
+  .credit-card-box label {
+    display: block;
+  }
+  /* The old "center div vertically" hack */
+  .credit-card-box .display-table {
+    display: table;
+  }
+  .credit-card-box .display-tr {
+    display: table-row;
+  }
+  .credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+  }
+  /* Just looks nicer */
+  .credit-card-box .panel-heading img {
+    min-width: 180px;
+  }
+}
