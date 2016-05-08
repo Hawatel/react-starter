@@ -60,7 +60,7 @@ class Username extends Component {
               </div>
 
               <button type="submit" className="btn btn-primary">Submit</button>
-              <Link to="/" className="btn btn-primary">Cancel</Link>
+              <Link to="/form" className="btn btn-primary">Cancel</Link>
 
             </form>
           </div>
