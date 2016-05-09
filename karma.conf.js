@@ -29,6 +29,7 @@ module.exports = (config) => {
       module: {
         loaders: [
           { test: /\.js$/, loader: 'babel-loader' },
+	  { test: /\.scss$/, loaders: ['style', 'css', 'sass'] }
         ],
         postLoaders: [{
           test: /\.js/,
@@ -58,7 +59,7 @@ module.exports = (config) => {
     ],
 
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_DEBUG,
 
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: false,
