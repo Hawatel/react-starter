@@ -1,17 +1,17 @@
 # Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Hawatel/hawatel-production-react-starter. This project is intended to be a safe, welcoming space for collaboration, and contributors.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Hawatel/react-starter. This project is intended to be a safe, welcoming space for collaboration, and contributors.
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your fork,
    and configure the remotes:
 
    ```sh
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/hawatel-production-react-starter
+   git clone https://github.com/<your-username>/react-starter
    # Navigate to the newly cloned directory
-   cd hawatel-production-react-starter
+   cd react-starter
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/Hawatel/hawatel-production-react-starter
+   git remote add upstream https://github.com/Hawatel/react-starter
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

@@ -1,6 +1,6 @@
-## Hawatel Production React Starter
+## React Starter
 
-> <b>:star2: Hawatel Production React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. This is a good place to start your project, or any other project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). For a development process the <b>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms` and `tests`.
+> <b>:star2: React Starter Kit</b> is a boilerplate which helps you build fast and efficient web apps or sites. This is a good place to start your project, or any other project what you need to develop. The boilerplate is built on top of [Node.js](https://nodejs.org/), [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). For a development process the <b>Starter Kit</b> uses modern web development tools such as [Webpack](http://webpack.github.io/), [Babel](http://babeljs.io/) and [React Hot Loader](https://github.com/gaearon/react-hot-loader). The boilerplate contains full stack modern modules and wonderful tools such as [redux-cli](https://github.com/SpencerCDixon/redux-cli) which can generate snippets of `components`, `containers`, `react-forms` and `tests`.
 > <br/>:eyes: If you are not familiar with React and Redux you can analyse a demo application which is included in the <b style='color: orange;'>Starter Kit</b>.
 
 <p align="center">
@@ -61,7 +61,7 @@ The folder structure provided is only meant to serve as a guide, it is by no mea
 ├── bin                      # Start server
 ├── blueprints               # Blueprint files for redux-cli
 ├── src                      # Application source code
-│   ├── components           # Generic React Components 
+│   ├── components           # Generic React Components
 │   ├── containers           # Components that provide context
 │   ├── forms                # Components include forms
 │   ├── redux                # Redux-specific pieces
@@ -75,7 +75,7 @@ The folder structure provided is only meant to serve as a guide, it is by no mea
 ```
 
 ## Redux-Generation
-To automation create new component boilerplate contain [redux-cli](https://github.com/SpencerCDixon/redux-cli). A Greate tool which accelerates build process application based on ready to use templates. 
+To automation create new component boilerplate contain [redux-cli](https://github.com/SpencerCDixon/redux-cli). A Greate tool which accelerates build process application based on ready to use templates.
 
 
 |Command|Description|

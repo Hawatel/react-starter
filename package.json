@@ -1,5 +1,5 @@
 {
-  "name": "hawatel-production-react-starter",
+  "name": "react-starter",
   "version": "1.0.0",
   "description": "Start your project with react and redux",
   "scripts": {
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hawatel/hawatel-production-react-starter.git"
+    "url": "https://github.com/Hawatel/react-starter.git"
   },
-  "homepage": "https://github.com/Hawatel/hawatel-production-react-starter",
-  "bugs": "https://github.com/Hawatel/hawatel-production-react-starter/issues",
+  "homepage": "https://github.com/Hawatel/react-starter",
+  "bugs": "https://github.com/Hawatel/react-starter/issues",
   "keywords": [
     "react",
     "reactjs",
