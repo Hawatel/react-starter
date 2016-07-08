@@ -51,6 +51,9 @@
 |`npm run build:production`|Same as `npm run clean & npm run build`
 |`npm run lint`|Lint all .js files.|
 |`npm run test`|Runs unit tests with Karma|
+|`npm run test:bdd:dev`|Runs BDD tests with Nightwatch.js using current state app. in dist directory|
+|`npm run test:bdd:production`|Compile the application and run Nighwatch.js BDD tests|
+|`npm run test:bdd:ci`|Compile the application and run Nighwatch.js BDD tests - dedicated for CI env|
 
 ## Structure
 
