@@ -49,6 +49,7 @@
 |`npm run clean`|Clean dist directory.|
 |`npm run build`|Compiles the application to disk (`~/dist` by default).|
 |`npm run build:production`|Same as `npm run clean & npm run build`
+|`npm run doc`|Generate project documentation.|
 |`npm run lint`|Lint all .js files.|
 |`npm run test`|Runs unit tests with Karma|
 |`npm run test:bdd:dev`|Runs BDD tests with Nightwatch.js using current state app. in dist directory|
@@ -75,6 +76,7 @@ The folder structure provided is only meant to serve as a guide, it is by no mea
 │   └── index.js             # Root application file
 ├── webpack                  # Webpack configuration file
 └── tests                    # Unit tests files
+     └── features            # BDD tests files   
 ```
 
 ## Redux-Generation
@@ -102,6 +104,19 @@ clean the `dist` folder and rebuilds the app
 ```
 $ npm test
 ```
+
+## Run BDD tests
+```
+$ npm run test:bdd:production
+```
+
+## Generate documentation. 
+Output is stored in esdocs directory 
+```
+$ npm run doc
+```
+
+
 
 ## Origin
 This project was built based on the [redux-easy-boilerplate](https://github.com/anorudes/redux-easy-boilerplate) created by [anorudes](https://github.com/anorudes).
