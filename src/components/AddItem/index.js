@@ -5,6 +5,7 @@ import { reset } from 'redux-form';
 // component styles
 import { styles } from './styles.scss';
 
+
 export class AddItem extends Component {
   static propTypes = {
     dispatch: React.PropTypes.func,

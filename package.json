@@ -6,6 +6,7 @@
     "clean": "rimraf dist",
     "build": "webpack --progress --verbose --colors --display-error-details --config webpack/common.config.js",
     "build:production": "npm run clean && npm run build",
+    "doc": "esdoc -c esdoc.json",
     "test:bdd:ci": "npm run build:production && gulp bdd-ci",
     "test:bdd:production": "npm run build:production && gulp bdd-local",
     "test:bdd:dev": "gulp bdd-local",
